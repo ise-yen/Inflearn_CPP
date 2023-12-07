@@ -20,7 +20,8 @@ int main() {
 
 	for (int i = 1; i <= sqrt(num); i++) {
 		if (num % i == 0) {
-			ans += 2;
+			if(i == sqrt(num)) ans++;
+			else ans += 2;
 		}
 	}
 	cout << num << "\n" << ans;
