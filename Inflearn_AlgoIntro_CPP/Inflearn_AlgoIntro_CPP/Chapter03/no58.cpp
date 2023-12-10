@@ -18,45 +18,27 @@ int findPos(char c, vector<pair<char, pair<char, char>>>* v) {
 void preorder(vector<pair<char, pair<char, char>>>* v, int pos) {
 	cnt--;
 	if (cnt < 0) return;
-	cout << v->at(pos).first; // 탐색 위치 출력
 
-	char left = v->at(pos).second.first;
-	char right = v->at(pos).second.second;
-	if (left != '.') {
-		preorder(v, findPos(left, v)); // 다음(왼) 노드 탐색
-	}
-	if (right != '.') {
-		preorder(v, findPos(right, v)); // 다음(오) 노드 탐색
-	}
+	cout << v->at(pos).first; // 탐색 위치 출력
+	if (v->at(pos).second.first != '.') preorder(v, findPos(v->at(pos).second.first, v)); // 다음(왼) 노드 탐색
+	if (v->at(pos).second.second != '.') preorder(v, findPos(v->at(pos).second.second, v)); // 다음(오) 노드 탐색
 }
 
 void inorder(vector<pair<char, pair<char, char>>>* v, int pos) {
 	cnt--;
 	if (cnt < 0) return;
 
-	char left = v->at(pos).second.first;
-	char right = v->at(pos).second.second;
-	if (left != '.') {
-		inorder(v, findPos(left, v)); // 다음(왼) 노드 탐색
-	}
+	if (v->at(pos).second.first != '.') inorder(v, findPos(v->at(pos).second.first, v)); // 다음(왼) 노드 탐색
 	cout << v->at(pos).first; // 탐색 위치 출력
-	if (right != '.') {
-		inorder(v, findPos(right, v)); // 다음(오) 노드 탐색
-	}
+	if (v->at(pos).second.second != '.') inorder(v, findPos(v->at(pos).second.second, v)); // 다음(오) 노드 탐색
 }
 
 void postorder(vector<pair<char, pair<char, char>>>* v, int pos) {
 	cnt--;
 	if (cnt < 0) return;
 
-	char left = v->at(pos).second.first;
-	char right = v->at(pos).second.second;
-	if (left != '.') {
-		postorder(v, findPos(left, v)); // 다음(왼) 노드 탐색
-	}
-	if (right != '.') {
-		postorder(v, findPos(right, v)); // 다음(오) 노드 탐색
-	}
+	if (v->at(pos).second.first != '.') postorder(v, findPos(v->at(pos).second.first, v)); // 다음(왼) 노드 탐색
+	if (v->at(pos).second.second != '.') postorder(v, findPos(v->at(pos).second.second, v)); // 다음(오) 노드 탐색
 	cout << v->at(pos).first; // 탐색 위치 출력
 }
 
