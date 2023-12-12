@@ -3,6 +3,22 @@
 
 using namespace std;
 
+void answer(int n) {
+	int cnt{};
+	for (int i = 2; i <= n; i++) {
+		bool isPri = true;
+		for (int j = 2; j*j <= i; j++) {
+			if (i % j == 0) {
+				isPri = false;
+				break;
+			}
+		}
+
+		if (isPri) cnt++;
+	}
+	cout << cnt;
+}
+
 int main() {
 	int N{}, res{};
 	cin >> N;
@@ -18,8 +34,9 @@ int main() {
 		}
 	}
 
-
 	cout << res;
+
+	answer(N);
 
 	return 0;
 }
