@@ -8,6 +8,7 @@ vector<bool> isVisit;
 bool isSame = false;
 
 void answer(int L, int sum, int N, int total) {
+	if (sum > total / 2) return; // 이미 반절 이상 넘기면 더 dfs 할 필요 없음
 	if (isSame) return;
 	if (L == N) {
 		if (sum == total - sum) {
