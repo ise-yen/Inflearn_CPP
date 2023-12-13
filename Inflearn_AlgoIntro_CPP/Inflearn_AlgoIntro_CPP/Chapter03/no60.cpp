@@ -24,12 +24,8 @@ void subset(int x, int N) {
 	if (x >= N) {
 		int sum1{}, sum2{};
 		for (int i = 0; i < N; i++) {
-			if (isVisit[i]) {
-				sum1 += v[i];
-			}
-			else {
-				sum2 += v[i];
-			}
+			if (isVisit[i]) sum1 += v[i];
+			else sum2 += v[i];
 		}
 
 		if (sum1 == sum2) isSame = true;
