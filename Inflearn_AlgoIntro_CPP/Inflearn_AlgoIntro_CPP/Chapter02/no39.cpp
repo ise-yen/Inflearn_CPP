@@ -20,31 +20,14 @@ int main() {
 	}
 
 	int ni{}, mj{};
-	while(ni < N && mj < M) {
-		if (vn[ni] <= vm[mj]) {
-			ans.push_back(vn[ni]);
-			ni++;
-		}
-		else {
-			ans.push_back(vm[mj]);
-			mj++;
-		}
+	while (ni < N && mj < M) {
+		if (vn[ni] <= vm[mj]) ans.push_back(vn[ni++]);
+		else ans.push_back(vm[mj++]);
 	}
 
-	if (ni == N) {
-		while (mj < M) {
-			ans.push_back(vm[mj]);
-			mj++;
-		}
-	}
-	else {
-		while (ni < N) {
-			ans.push_back(vn[ni]);
-			ni++;
-		}
-	}
+	while (mj < M) ans.push_back(vm[mj++]);
+	while (ni < N) ans.push_back(vn[ni++]);
 
-	for (int a = 0; a < ans.size(); a++) {
-		cout << ans[a] << " ";
-	}
+
+	for (int a = 0; a < ans.size(); a++) cout << ans[a] << " ";
 }
