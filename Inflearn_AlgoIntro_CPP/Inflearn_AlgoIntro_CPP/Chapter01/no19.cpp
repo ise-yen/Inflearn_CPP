@@ -3,10 +3,23 @@
 
 using namespace std;
 
+vector<int> v;
+
+void answer(int N) {
+	int max = v[N-1];
+	int cnt{};
+	for (int i = N - 2; i >= 1; i--) {
+		if (v[i] > max) {
+			max = v[i];
+			cnt++;
+		}
+	}
+	cout << cnt;
+}
+
 int main() {
 	int N{}, ans{};
 	cin >> N;
-	vector<int> v;
 	int max{}, maxP{};
 	for (int i = 0; i < N; i++) {
 		int tmp{};
@@ -31,6 +44,8 @@ int main() {
 		}
 	}
 
-	cout << ans;
+	//cout << ans;
+	answer(N);
+
 	return 0;
 }
