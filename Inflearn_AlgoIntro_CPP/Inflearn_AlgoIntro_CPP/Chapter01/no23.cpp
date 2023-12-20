@@ -2,6 +2,25 @@
 
 using namespace std;
 
+void answer() {
+	int N, pre, cnt = 0, max = 0;
+	cin >> N;
+	cin >> pre;
+	cnt = max = 1;
+
+	for (int i = 1; i < N; i++) {
+		int now;
+		cin >> now;
+		if (now >= pre) {
+			cnt++;
+			if (cnt > max) max = cnt;
+		}
+		else cnt = 1;
+		pre = now;
+	}
+
+}
+
 int main() {
 	int N{}, ans{}, cnt{}, before{};
 	cin >> N;
