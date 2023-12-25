@@ -4,12 +4,39 @@
 
 using namespace std;
 
-int main() {
-	int N{};
-	cin >> N;
-	vector<pair<int, int>> v;
-	vector<pair<int, int>> ans;
+int N{};
+vector<pair<int, int>> v;
+vector<pair<int, int>> ans;
+vector<int> a;
+vector<int> b;
 
+void answer() {
+	cin >> N;
+	// 처음에는 다 1등 : 등수 배열을 1로 초기화
+	for (int i = 0; i < N; i++) {
+		int score{};
+		cin >> score;
+		a.push_back(score);
+		b.push_back(1);
+	}
+
+	// 이중 for문 : i(1~5), j(1~5)
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			// i랑 j랑 비교
+			// if(i < j) => 등수++
+			if (a[j] > a[i]) b[i]++;
+		}
+	}
+
+	for (int i = 0; i < N; i++) {
+		cout << b[i] << " ";
+	}
+
+}
+
+void mine() {
+	cin >> N;
 	for (int i = 0; i < N; i++) {
 		int score{};
 		cin >> score;
@@ -33,6 +60,9 @@ int main() {
 	sort(ans.begin(), ans.end());
 
 	for (int i = 0; i < N; i++) cout << ans[i].second << " ";
+}
 
+int main() {
+	answer();
 	return 0;
 }

@@ -7,7 +7,31 @@ int prime[1001]{};
 
 map<int, int> m;
 
-int main() {
+void mine2() {
+	// 2나 5로만 소인수분해
+	int N{}, cnt1{}, cnt2{};
+	cin >> N;
+	for (int i = 2; i <= N; i++) {
+		int tmp = i;
+		int j = 2;
+		while (tmp > 1) {
+			if (tmp % j == 0) {
+				if (j == 2) cnt1++;
+				else if (j == 5) cnt2++;
+				tmp /= j;
+			}
+			else {
+				if (j == 2) j = 5;
+				else break;
+			}
+		}
+	}
+	if (cnt1 < cnt2) cout << cnt1;
+	else cout << cnt2;
+}
+
+void mine() {
+
 	int N{};
 	cin >> N;
 
@@ -46,4 +70,8 @@ int main() {
 	int cnt = m[2] < m[5] ? m[2] : m[5];
 
 	cout << cnt;
+}
+
+int main() {
+	mine2();
 }

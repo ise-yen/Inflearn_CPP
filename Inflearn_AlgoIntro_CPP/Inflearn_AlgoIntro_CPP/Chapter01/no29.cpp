@@ -3,7 +3,23 @@
 
 using namespace std;
 
-int main() {
+void answer() {
+	int N{}, cnt{};
+	cin >> N;
+	for (int i = 1; i <= N; i++) {
+		int tmp = i;
+		int digit{};
+		while (tmp > 0) {
+			digit = tmp % 10;
+			if (digit == 3) cnt++;
+			tmp /= 10;
+		}
+	}
+
+	cout << cnt;
+}
+
+void mine() {
 	int N{}, ans{};
 	cin >> N;
 
@@ -15,6 +31,9 @@ int main() {
 	}
 
 	cout << ans;
+}
 
+int main() {
+	answer();
 	return 0;
 }
