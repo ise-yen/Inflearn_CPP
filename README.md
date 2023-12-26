@@ -51,23 +51,23 @@
 
 |Solve|no|level|name|solution|link|
 |--|--|-----|----|--------|----|
-||11|[레벨1]|달리기 경주|해시|
-||12|[레벨1]|추억 점수|해시|
-||13|[레벨1]|공원 산책|방향탐색 시뮬레이션|
-||14|[레벨1]|바탕화면 정리|2차원 배열탐색|
-||15|[레벨1]|덧칠하기|그리디|
-||16|[레벨1]|대충 만든 자판|해시|
-||17|[레벨1]|햄버거만들기|스택|
+|O|11|[레벨1]|달리기 경주|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8B%AC%EB%A6%AC%EA%B8%B0%20%EA%B2%BD%EC%A3%BC.cpp)
+|O|12|[레벨1]|추억 점수|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%B6%94%EC%96%B5%20%EC%A0%90%EC%88%98.cpp)
+|O|13|[레벨1]|공원 산책|방향탐색 시뮬레이션|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EA%B3%B5%EC%9B%90%20%EC%82%B0%EC%B1%85.cpp)
+|O|14|[레벨1]|바탕화면 정리|2차원 배열탐색|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%20%EC%A0%95%EB%A6%AC.cpp)
+||15|[레벨1]|덧칠하기|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0.cpp)
+|O|16|[레벨1]|[대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8C%80%EC%B6%A9%20%EB%A7%8C%EB%93%A0%20%EC%9E%90%ED%8C%90(%ED%95%B4%EC%8B%9C).cpp)
+||17|[레벨1]|[햄버거만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|스택|
 ||18|[레벨1]|삼총사|3중for|
-||19|[레벨1]|숫자짝꿍|해시|
-||20|[레벨1]|성격유형 검사하기|해시|
+||19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|
+||20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|
 ||21|[레벨1]|신고결과받기|해시|
 ||22|[레벨1]|없는 숫자 더하기|해시|
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
 ||24|[레벨1]|키패드누르기|시뮬레이션 구현|
 ||25|[레벨1]|크레인 인형뽑기 게임|시뮬레이션, 스택|
 ||26|[레벨1]|체육복|그리디|
-||27|[레벨1]|완주하지 못한 선수|해시|
+||27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|
 
 </details>
 
