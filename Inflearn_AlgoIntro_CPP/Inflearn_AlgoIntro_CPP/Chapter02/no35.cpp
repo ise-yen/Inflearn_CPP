@@ -4,11 +4,24 @@
 
 using namespace std;
 
+int N{};
+vector<int> v;
+
+void answer() {
+	for (int i = 0; i < N - 1; i++) {
+		for (int j = 0; j < N - 1 - j; j++) {
+			if (v[j] > 0 && v[j + 1] < 0) {
+				int tmp = v[j];
+				v[j] = v[j + 1];
+				v[j + 1] = tmp;
+			}
+		}
+	}
+}
+
 int main() {
-	int N{};
 	cin >> N;
 
-	vector<int> v;
 	vector <queue<int>> mzp(2);
 
 	for (int i = 0; i < N; i++) {
