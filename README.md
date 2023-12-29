@@ -55,10 +55,10 @@
 |O|12|[레벨1]|추억 점수|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%B6%94%EC%96%B5%20%EC%A0%90%EC%88%98.cpp)
 |O|13|[레벨1]|공원 산책|방향탐색 시뮬레이션|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EA%B3%B5%EC%9B%90%20%EC%82%B0%EC%B1%85.cpp)
 |O|14|[레벨1]|바탕화면 정리|2차원 배열탐색|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%20%EC%A0%95%EB%A6%AC.cpp)
-||15|[레벨1]|덧칠하기|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0.cpp)
+|O|15|[레벨1]|덧칠하기|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0.cpp)
 |O|16|[레벨1]|[대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8C%80%EC%B6%A9%20%EB%A7%8C%EB%93%A0%20%EC%9E%90%ED%8C%90(%ED%95%B4%EC%8B%9C).cpp)
 |O|17|[레벨1]|[햄버거만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|스택|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%ED%96%84%EB%B2%84%EA%B1%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0(stack).cpp)
-||18|[레벨1]|삼총사|3중for|
+|O|18|[레벨1]|삼총사|3중for|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%82%BC%EC%B4%9D%EC%82%AC.cpp)
 ||19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|
 ||20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|
 ||21|[레벨1]|신고결과받기|해시|
