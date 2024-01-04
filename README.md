@@ -59,8 +59,8 @@
 |O|16|[레벨1]|[대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8C%80%EC%B6%A9%20%EB%A7%8C%EB%93%A0%20%EC%9E%90%ED%8C%90(%ED%95%B4%EC%8B%9C).cpp)
 |O|17|[레벨1]|[햄버거만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|스택|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%ED%96%84%EB%B2%84%EA%B1%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0(stack).cpp)
 |O|18|[레벨1]|삼총사|3중for|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%82%BC%EC%B4%9D%EC%82%AC.cpp)
-||19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|
-||20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|
+|O|19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%88%AB%EC%9E%90%20%EC%A7%9D%EA%BF%8D.cpp)
+|O|20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%84%B1%EA%B2%A9%20%EC%9C%A0%ED%98%95%20%EA%B2%80%EC%82%AC.cpp)
 ||21|[레벨1]|신고결과받기|해시|
 ||22|[레벨1]|없는 숫자 더하기|해시|
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
