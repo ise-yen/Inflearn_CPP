@@ -91,7 +91,7 @@
 ||24|[레벨1]|키패드누르기|시뮬레이션 구현|
 ||25|[레벨1]|크레인 인형뽑기 게임|시뮬레이션, 스택|
 ||26|[레벨1]|체육복|그리디|
-||27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|
+|O|27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/Level1/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.cpp)
 
 </details>
 
