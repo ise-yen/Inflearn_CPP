@@ -85,7 +85,7 @@
 |O|18|[레벨1]|삼총사|3중for|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%82%BC%EC%B4%9D%EC%82%AC.cpp)
 |O|19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%88%AB%EC%9E%90%20%EC%A7%9D%EA%BF%8D.cpp)
 |O|20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%84%B1%EA%B2%A9%20%EC%9C%A0%ED%98%95%20%EA%B2%80%EC%82%AC.cpp)
-||21|[레벨1]|신고결과받기|해시|
+|O|21|[레벨1]|[신고결과받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2022%20KAKAO%20BLIND%20RECRUITMENT/%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0.cpp)
 |O|22|[레벨1]|없는 숫자 더하기|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/MonthlyCodeChallenge/Season3/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0(%ED%95%B4%EC%8B%9C).cpp)
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
 ||24|[레벨1]|키패드누르기|시뮬레이션 구현|
