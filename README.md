@@ -88,7 +88,7 @@
 |O|21|[레벨1]|[신고결과받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2022%20KAKAO%20BLIND%20RECRUITMENT/%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0.cpp)
 |O|22|[레벨1]|없는 숫자 더하기|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/MonthlyCodeChallenge/Season3/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0(%ED%95%B4%EC%8B%9C).cpp)
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
-||24|[레벨1]|키패드누르기|시뮬레이션 구현|
+|O|24|[레벨1]|[키패드누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|시뮬레이션 구현|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2020%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%9D%B8%ED%84%B4%EC%8B%AD/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0.cpp)
 ||25|[레벨1]|크레인 인형뽑기 게임|시뮬레이션, 스택|
 ||26|[레벨1]|체육복|그리디|
 |O|27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/Level1/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.cpp)
