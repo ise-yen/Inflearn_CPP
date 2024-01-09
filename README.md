@@ -9,22 +9,46 @@
 - 66강 : 경로탐색 (인접리스트 : used vector)
   - 인접리스트 : 그래프의 한 꼭짓점에서 연결되어 있는 꼭짓점들을 하나의 연결 리스트로 표현하는 방법
 
-## 강의 계획
-### [12월]
+## 강의 계획/실천
+
+<details>
+<summary> [24년 1월] </summary>
+
 |주차|월|화|수|목|금|토|일|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|**2주차**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|
+|**1주차**|**1일**|**2일**|**3일**|**4일**|**5일**|**6일**|**7일**|
+|**챕터1**|||||36, 37|38, 39|40, 41|
+|**챕터4**|||||73~75|76,77|78,79|
+|**2주차**|**8일**|**9일**|**10일**|**11일**|**12일**|**13일**|**14일**|
+|**챕터2**|42, 43|44, 45|46, 47|48, 49|50, 51|52, 53|54, 55|
+|**챕터4**|80, 81|82, 83|84, 85|86, 87|88, 89|||
+|**3주차**|**15일**|**16일**|**17일**|**18일**|**19일**|**20일**|**21일**|
+|**챕터5**|0~3|4~7|8~11|12~14||||
+
+</details>
+
+
+<details>
+<summary> [23년 12월] </summary>
+
+|주차|월|화|수|목|금|토|일|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|**2주차**|**4일**|**5일**|**6일**|**7일**|**8일**|**9일**|**10일**|
 |**챕터1**|~~1강, 2강~~|~~3강~~|~~4강, 5강~~|~~6강~~|~~7강, 8강~~|~~9강, 10강~~|~~11강, 12강~~|
 |**챕터3**|~~56강, 56강~~||~~57강~~||~~58강~~|~~59강~~|~~60강~~|
-|**3주차**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|
+|**3주차**|**11일**|**12일**|**13일**|**14일**|**15일**|**16일**|**17일**|
 |**챕터1**|~~13강, 14강~~|~~15강~~|~~16강~~|~~17강~~|~~18강~~|||
 |**챕터3**|~~61강~~||~~62강~~||~~63강~~|||
-|**4주차**|**18**|**19**|**20**|**21**|**22**|**23**|**24**|
+|**4주차**|**18일**|**19일**|**20일**|**21일**|**22일**|**23일**|**24일**|
 |**챕터1**|~~19강, 20강, 21강~~|~~22강~~|~~23강, 24강~~|~~25강, 26강~~|||~~27강, 28강, 29강, 31강~~|
 |**챕터3**||~~64강, 65강~~|~~66강, 67강, 68강~~|~~69강~~||||
-|**5주차**|**25**|**26**|**27**|**28**|**29**|**30**|**31**|
-|**챕터2**|~~30강~~|~~32강, 33강~~|~~34강, 35강~~|36강, 37강|||
-|**챕터4**||~~70강~~|~~71강, 72강~~|73강, 74강||||
+|**5주차**|**25일**|**26일**|**27일**|**28일**|**29일**|**30일**|**31일**|
+|**챕터2**|~~30강~~|~~32강, 33강~~|~~34강, 35강~~||||
+|**챕터4**||~~70강~~|~~71강, 72강~~|||||
+
+</details>
+
+
 
 ### 세션 6 : 프로그래머스 문제
 
@@ -39,7 +63,7 @@
 |O|4|[레벨0]|전국대회 선발고사|좌표정렬|
 |O|5|[레벨0]|배열의 원소 삭제하기|셋 자료구조|
 |O|6|[레벨0]|정수를 나선형으로 배치하기|시뮬레이션, 구현|
-||7|[레벨0]|OX 퀴즈|split() 함수 사용|
+|△|7|[레벨0]|OX 퀴즈|split() 함수 사용|
 |O|8|[레벨0]|한 번만 등장한 문자|해시|
 |O|9|[레벨0]|안전지대|8방향 탐색 시뮬레이션|
 |O|10|[레벨0]|최빈값 구하기|해시|
@@ -55,19 +79,19 @@
 |O|12|[레벨1]|추억 점수|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%B6%94%EC%96%B5%20%EC%A0%90%EC%88%98.cpp)
 |O|13|[레벨1]|공원 산책|방향탐색 시뮬레이션|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EA%B3%B5%EC%9B%90%20%EC%82%B0%EC%B1%85.cpp)
 |O|14|[레벨1]|바탕화면 정리|2차원 배열탐색|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%20%EC%A0%95%EB%A6%AC.cpp)
-||15|[레벨1]|덧칠하기|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0.cpp)
+|O|15|[레벨1]|덧칠하기|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0.cpp)
 |O|16|[레벨1]|[대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EB%8C%80%EC%B6%A9%20%EB%A7%8C%EB%93%A0%20%EC%9E%90%ED%8C%90(%ED%95%B4%EC%8B%9C).cpp)
-||17|[레벨1]|[햄버거만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|스택|
-||18|[레벨1]|삼총사|3중for|
-||19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|
-||20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|
-||21|[레벨1]|신고결과받기|해시|
-||22|[레벨1]|없는 숫자 더하기|해시|
+|O|17|[레벨1]|[햄버거만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|스택|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%ED%96%84%EB%B2%84%EA%B1%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0(stack).cpp)
+|O|18|[레벨1]|삼총사|3중for|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%82%BC%EC%B4%9D%EC%82%AC.cpp)
+|O|19|[레벨1]|[숫자짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%88%AB%EC%9E%90%20%EC%A7%9D%EA%BF%8D.cpp)
+|O|20|[레벨1]|[성격유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/Level1/%EC%84%B1%EA%B2%A9%20%EC%9C%A0%ED%98%95%20%EA%B2%80%EC%82%AC.cpp)
+|O|21|[레벨1]|[신고결과받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2022%20KAKAO%20BLIND%20RECRUITMENT/%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0.cpp)
+|O|22|[레벨1]|없는 숫자 더하기|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/MonthlyCodeChallenge/Season3/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0(%ED%95%B4%EC%8B%9C).cpp)
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
-||24|[레벨1]|키패드누르기|시뮬레이션 구현|
+|O|24|[레벨1]|[키패드누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|시뮬레이션 구현|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2020%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%9D%B8%ED%84%B4%EC%8B%AD/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0.cpp)
 ||25|[레벨1]|크레인 인형뽑기 게임|시뮬레이션, 스택|
 ||26|[레벨1]|체육복|그리디|
-||27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|
+|O|27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/Level1/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.cpp)
 
 </details>
 
