@@ -3,6 +3,25 @@
 
 using namespace std;
 
+void Answer() {
+	int N, b = 1, cnt{}, a{};
+	cin >> N;
+	a = N;
+	a--;
+	while (a > 0) {
+		b++;
+		a = a - b;
+		if (a % b == 0) {
+			int i{};
+			for (i = 1; i < b; i++) {
+				cout << (a / b) + i) << " + ";
+			}
+			cout << (a / b) + i << " = " << N;
+			cnt++;
+		}
+	}
+}
+
 int main() {
 	int N{}, cnt{};
 	cin >> N;
