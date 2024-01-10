@@ -20,6 +20,7 @@ void Answer() {
 			cnt++;
 		}
 	}
+	cout << cnt;
 }
 
 int main() {
