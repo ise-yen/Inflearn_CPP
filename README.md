@@ -89,8 +89,8 @@
 |O|22|[레벨1]|없는 숫자 더하기|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/programmersAlgo/MonthlyCodeChallenge/Season3/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0(%ED%95%B4%EC%8B%9C).cpp)
 ||23|[레벨1]|신규 아이디 추천|정규식 사용|
 |O|24|[레벨1]|[키패드누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|시뮬레이션 구현|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2020%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%9D%B8%ED%84%B4%EC%8B%AD/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0.cpp)
-||25|[레벨1]|[크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|시뮬레이션, 스택|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2019%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B2%A8%EC%9A%B8%20%EC%9D%B8%ED%84%B4%EC%8B%AD/%ED%81%AC%EB%A0%88%EC%9D%B8%20%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%20%EA%B2%8C%EC%9E%84.cpp)
-||26|[레벨1]|체육복|그리디|
+|O|25|[레벨1]|[크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|시뮬레이션, 스택|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/2019%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B2%A8%EC%9A%B8%20%EC%9D%B8%ED%84%B4%EC%8B%AD/%ED%81%AC%EB%A0%88%EC%9D%B8%20%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%20%EA%B2%8C%EC%9E%84.cpp)
+|O|26|[레벨1]|체육복|그리디|[풀이](https://github.com/ise-yen/StudyProgrammers/tree/main/Level1)
 |O|27|[레벨1]|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|해시|[풀이](https://github.com/ise-yen/StudyProgrammers/blob/main/Level1/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.cpp)
 
 </details>
