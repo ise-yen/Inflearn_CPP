@@ -14,7 +14,7 @@ int main() {
 	}
 
 	for (int i = 1; i < N; i++) {
-		int tmp = v[j];
+		int tmp = v[i];
 		int j = i;
 		for (j = i - 1; j >= 0; j--) {
 			if (tmp < v[j]) v[j + 1] = v[j];
