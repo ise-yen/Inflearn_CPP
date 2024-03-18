@@ -25,17 +25,19 @@ int CntV(int s) {
 int main() {
 	cin >> N >> M;
 	int lt = 1, rt{}; // lt = 최소 용량, rt = 최대 용량
+	int max = -1;
 	for (int i = 0; i < N; i++) {
 		int num{};
 		cin >> num;
 		v.push_back(num); // 비디오 길이
 		rt += num; // 최대 용량 갱신
+		max = max < v[i] ? v[i] : max;
 	}
 
 	while (lt <= rt) {
 		int mid = (lt + rt) / 2; // 중간 용량값
 
-		if (CntV(mid) <= M) { // dvd 개수가 M이하라면 : 더 줄여도 된다
+		if (mid >= max && CntV(mid) <= M) { // dvd 개수가 M이하라면 : 더 줄여도 된다
 			answer = mid; // 용량 최소값 갱신
 			rt = mid - 1;
 		}
