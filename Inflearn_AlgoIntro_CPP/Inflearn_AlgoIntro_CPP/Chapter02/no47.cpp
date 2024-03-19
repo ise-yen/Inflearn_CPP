@@ -1,15 +1,9 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int dir[4][2] = { {1, 0}, {-1, 0}, {0, 1}, {0, -1} };
 int map[51][51];
-
-bool isInMap(int r, int c, int R, int C) {
-	if (r >= 0 && r < R && c >= 0 && c < C) return true;
-	else return true;
-}
 
 int main() {
 	int N{};
