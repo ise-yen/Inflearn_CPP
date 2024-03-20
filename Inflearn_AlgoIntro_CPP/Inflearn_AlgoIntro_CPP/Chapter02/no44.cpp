@@ -9,25 +9,18 @@ vector<int> dis;
 int binarySearch(vector<int> &v, int left, int right, int &C) {
 	int answer{};
 	while (left <= right) {
-		int min = INT_MAX;
 		int mid = (left + right) / 2;
 		int pre = v[0];
 		int cnt = 1;
 		for (int i = 1; i < v.size(); i++) {
-			if (v[i] - pre == 1) continue; // 한 칸 차이는 배치X
-			else if (v[i] - pre < mid) continue; // mid보다 작으면 안됨
-			else {
+			if (v[i] - pre >= mid) {
 				cnt++; // 배치완료
-				min = min < v[i] - pre ? min : v[i] - pre;
 				pre = v[i];
 			}
 		}
 		
-		if (cnt == C) {
-			answer = min > mid ? min : mid;
-			break;
-		}
-		else if(cnt > C){
+		if (cnt >= C) {
+			answer = mid;
 			left = mid + 1;
 		}
 		else {
