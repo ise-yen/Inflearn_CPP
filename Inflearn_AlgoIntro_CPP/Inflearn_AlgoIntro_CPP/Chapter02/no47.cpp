@@ -3,7 +3,7 @@
 using namespace std;
 
 int dir[4][2] = { {1, 0}, {-1, 0}, {0, 1}, {0, -1} };
-int map[51][51];
+int map[60][60];
 
 int main() {
 	int N{};
