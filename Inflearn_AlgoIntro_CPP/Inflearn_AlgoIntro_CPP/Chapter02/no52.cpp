@@ -4,15 +4,14 @@
 using namespace std;
 
 int ugly[3] = { 2, 3, 5 };
+int N{}, answer{};
 
-int main() {
-	int N{}, cnt{};
-	cin >> N;
-
-	int n = 0;
+// 시간초과
+void myCode() {
+	int answer{}, cnt{};
 	while(true) {
-		n++;
-		int tmp = n;
+		answer++;
+		int tmp = answer;
 		bool isUgly = true;
 		while (tmp > 1) {
 			isUgly = false;
@@ -33,8 +32,33 @@ int main() {
 		if (isUgly) cnt++;
 		if (cnt == N) break;
 	}
+}
 
-	cout << n;
 
+void answerCode() {
+	int p2 = 1, p3 = 1, p5 = 1;
+
+	vector<int> v(N+1);
+	v[1] = 1;
+
+	for (int i = 2; i <= N; i++) {
+		int min = INT_MAX;
+		min = min < v[p2] * 2 ? min : v[p2] * 2;
+		min = min < v[p3] * 3 ? min : v[p3] * 3;
+		min = min < v[p5] * 5 ? min : v[p5] * 5;
+		if (v[p2] * 2 == min) p2++;
+		if (v[p3] * 3 == min) p3++;
+		if (v[p5] * 5 == min) p5++;
+		v[i] = min;
+	}
+
+	answer = v[N];
+}
+
+int main() {
+	cin >> N;
+	answerCode();
+
+	cout << answer;
 	return 0;
 }
