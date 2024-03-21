@@ -4,10 +4,10 @@
 
 using namespace std;
 
-int main() {
-	string str{};
-	cin >> str;
-	stack<char> s;
+string str{};
+stack<char> s;
+
+void myCode() {
 	for (int i = 0; i < str.length(); i++) {
 		if (s.empty()) s.push(str[i]);
 		else {
@@ -18,6 +18,24 @@ int main() {
 
 	if (s.empty()) cout << "YES";
 	else cout << "NO";
+}
 
-	return 0;
+void answerCode() {
+	for (int i = 0; i < str.length(); i++) {
+		if (str[i] == '(') s.push(str[i]);
+		else {
+			if (s.empty()) {
+				cout << "NO";
+				return;
+			}
+			else s.pop();
+		}
+	}
+
+	if (s.empty()) cout << "YES";
+	else cout << "NO";
+}
+
+int main() {
+	cin >> str;
 }
