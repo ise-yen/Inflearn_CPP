@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+
+void myCode() {
 	int N{}, K{}, answer{};
 	cin >> N >> K;
 	stack<char> s;
@@ -21,6 +22,20 @@ int main() {
 		cout << s.top();
 		s.pop();
 	}
+}
 
-	return 0;
+void answerCode() {
+	int n{}, k{};
+	cin >> n >> k;
+	stack<int> s;
+	char str[20] = "0123456789ABCDEF";
+
+	while (n > 0) {
+		s.push(n % k);
+		n /= k;
+	}
+	while (!s.empty()) {
+		cout << str[s.top()];
+		s.pop();
+	}
 }
