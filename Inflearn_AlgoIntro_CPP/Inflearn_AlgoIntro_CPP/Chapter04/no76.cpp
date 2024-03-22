@@ -25,9 +25,32 @@ void myCode2() {
 	answer /= memo[N - R];
 }
 
+// nCr = n-1Cr-1 + n-1Cr // n번째를 포함하는 경우와 포함하지 않는 경우
+int recur(int n, int r) { // 재귀 방식
+	if (n == r || r == 0) return 1;
+	else return recur(n-1, r-1) + recur(n-1, r);
+}
+
+void answerCode_recur() {
+	answer = recur(N, R);
+}
+
+int dy[MAX + 1][MAX + 1];
+int recur_memo(int n, int r) { // 재귀 방식
+	// 메모된 게 있으면
+	if (dy[n][r] > 0) return dy[n][r];
+
+	if (n == r || r == 0) return 1;
+	else return recur(n - 1, r - 1) + recur(n - 1, r);
+}
+
+void answerCode_memo() {
+	answer = recur_memo(N, R);
+}
+
 int main() {
 	cin >> N >> R;
-	myCode2();
+	answerCode_memo();
 	cout << answer;
 	return 0;
 }
