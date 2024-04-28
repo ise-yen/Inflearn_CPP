@@ -12,6 +12,7 @@ int t1{}, t2{};
 string answer;
 
 vector<int> friends[MAX];
+
 void myCode_Linked() {
 	for (int i = 0; i < M; i++) {
 		int a{}, b{};
